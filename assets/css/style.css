@@ -11,6 +11,69 @@
 /* Fonts */
 /* Fonts Order */
 /* Fonts Size */
+.footer {
+  background-color: #000;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #FFF;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 15px;
+}
+.footer__copy {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+}
+.footer__item {
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+  margin: 15px;
+  list-style: none;
+}
+.footer__item a {
+  text-decoration: none;
+  list-style: none;
+  color: #FFF;
+}
+.footer__item button {
+  text-decoration: none;
+  list-style: none;
+}
+.footer__item:nth-child(4) {
+  margin: 0;
+}
+.footer__input {
+  border-radius: 4px;
+  padding: 5px;
+  border: none;
+  margin: 0;
+}
+
+/* Tablet */
+@media (min-width: 992px) {
+  .footer {
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFF;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 15px;
+  }
+  .footer__lista {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+  }
+  .footer__item {
+    margin: 0 15px;
+    list-style: none;
+  }
+}
 .row {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
@@ -213,6 +276,14 @@
     grid-column: span 1;
   }
 }
+.header {
+  max-width: 100vh;
+  margin: 0 auto;
+}
+.header__img img {
+  width: 100%;
+}
+
 .navbar {
   background-color: #000;
   height: 60px;
