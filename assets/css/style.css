@@ -1,3 +1,15 @@
+/* Color Scheme */
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap");
+/* Breakpoints @media */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+/* Fonts */
+/* Fonts Order */
+/* Fonts Size */
 
 /*# sourceMappingURL=style.css.map */

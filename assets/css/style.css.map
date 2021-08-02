@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../scss/abstracts/_variables.scss","../scss/base/_reset.scss","../scss/base/_typography.scss"],"names":[],"mappings":"AAAA;AAWA;AAEQ;AAER;ACfA;EACI;EACA;EACA;;;ACHJ;AASA;AASA","file":"style.css"}
