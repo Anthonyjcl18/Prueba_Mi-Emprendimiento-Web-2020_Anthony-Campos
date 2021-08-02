@@ -32,11 +32,15 @@
         margin: 0;
     }
     &__input {
-        border-radius: 4px;
-        padding: 5px;
+        border-radius: 3px;
+        padding: 6px;
         border: none;
         margin: 0;
     }
+    &__input:focus {
+        background-color: $tangerine;
+    }
+    
 }
 
 /* Tablet */

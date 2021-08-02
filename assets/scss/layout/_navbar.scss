@@ -36,6 +36,9 @@
         font-size: $font-x-large;
         color: $white;
     }
+    &__menu:hover {
+        background-color: $tangerine;
+    }
 }
 
 /* Mobile */

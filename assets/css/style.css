@@ -2,6 +2,22 @@
 /* Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap");
 /* Breakpoints @media */
+@keyframes lineal {
+  0% {
+    transform: translateX(150px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes rueda {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 * {
   padding: 0;
   margin: 0;
@@ -46,10 +62,13 @@
   margin: 0;
 }
 .footer__input {
-  border-radius: 4px;
-  padding: 5px;
+  border-radius: 3px;
+  padding: 6px;
   border: none;
   margin: 0;
+}
+.footer__input:focus {
+  background-color: #FFAF6D;
 }
 
 /* Tablet */
@@ -321,6 +340,9 @@
   font-size: 1.875rem;
   color: #FFF;
 }
+.navbar__menu:hover {
+  background-color: #FFAF6D;
+}
 
 /* Mobile */
 @media (min-width: 768px) {
@@ -349,6 +371,37 @@
     display: flex;
   }
 }
+.button {
+  font-family: "Poppins", sans-serif;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+}
+.button--grande {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.4rem 1.5rem;
+  margin: 0 10px;
+  color: #FFF;
+  background-color: #726F73;
+  height: 25px;
+  width: 98%;
+  padding: 2px;
+  margin: 0 auto;
+}
+.button--pequenio {
+  padding: 5px 10px;
+  background-color: #FFAF6D;
+  text-decoration: none;
+  list-style: none;
+  font-size: 0.813rem;
+  border-radius: 3px;
+  margin: 0;
+}
+.button--pequenio:hover {
+  background-color: #FFF;
+}
+
 .main .cursos {
   width: 98%;
   margin: 0 auto;
@@ -452,6 +505,7 @@
 }
 .main .nosotros__cursos {
   font-family: "Ubuntu", sans-serif;
+  font-size: 0.875rem;
   list-style: circle;
   margin: 3px 0 3px 30px;
 }
@@ -460,6 +514,7 @@
 }
 .main .nosotros__svg {
   text-align: center;
+  padding-top: 20px;
 }
 .main .nosotros__path1 {
   animation-name: lineal;

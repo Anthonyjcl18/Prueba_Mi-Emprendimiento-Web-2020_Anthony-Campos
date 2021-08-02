@@ -103,6 +103,7 @@
         }
         &__cursos {
             font-family: $primary-font;
+            font-size: $font-small;
             list-style: circle;
             margin: 3px 0 3px 30px
         }
@@ -111,6 +112,7 @@
         }
         &__svg {
             text-align: center;
+            padding-top: 20px;
         }
         &__path1 {
             animation-name: lineal;
